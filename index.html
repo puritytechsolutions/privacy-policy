@@ -7,81 +7,420 @@
     <link rel="icon" type="image/x-icon" href="./logo.png">
     <title>Privacy Policy - SUCO</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Privacy Policy, Terms, and Conditions</h1>
-        </header>
-        
-        <section class="content">
-            <h2>SUCO Food Delivery App</h2>
-            <p><strong>SUCO</strong> ("we," "our," or "us") is committed to protecting your privacy. This document outlines our Privacy Policy, Terms and Conditions, Refund Policy, Pricing Policy, and Shipping Policy for all products and services offered through our platform.</p>
 
-            <h3>1. Information We Collect</h3>
-            <ul>
-                <li><strong>Personal Information:</strong> Name, email address, phone number, and other information provided during account registration.</li>
-                <li><strong>Device Information:</strong> Baseband version.</li>
-                <li><strong>Location Data:</strong> If enabled, location information may be collected to improve app functionalities (e.g., for food delivery). This includes both fine and coarse location data, as well as background location data when the app is not in use.</li>
-                <li><strong>SMS Data:</strong> If granted, the app may access SMS permissions to facilitate certain features, such as verifying phone numbers.</li>
-                <li><strong>Camera and Storage:</strong> The app may request access to your camera and storage for taking photos of food items and storing them, as well as accessing external storage for file operations.</li>
-            </ul>
-
-            <h3>2. How We Use Your Information</h3>
-            <ul>
-                <li>To provide and maintain our services, including location-based food delivery.</li>
-                <li>To personalize user experiences and improve app performance, including access to the camera for scanning QR codes or capturing images.</li>
-                <li>To communicate with you regarding updates, promotions, technical support, or verification requests via SMS or email.</li>
-                <li>To analyze trends and improve app functionalities, ensuring that location and usage data is leveraged to optimize your experience.</li>
-            </ul>
-
-            <h3>3. Refund and Cancellation Policy</h3>
-            <ul>
-                <li>Refunds are processed for eligible products and services based on the Cancellation Policy on our website.</li>
-                <li>The refund amount will be credited to your bank account within 3 - 4 working days of approval.</li>
-                <li>Cancellations are allowed before the product or service is shipped or initiated. Contact us immediately at support@puritytechsolutions.in for assistance.</li>
-            </ul>
-
-            <h3>4. Pricing Policy</h3>
-            <ul>
-                <li>All prices displayed on the website are in Indian Rupees (INR).</li>
-                <li>Taxes and additional charges, if applicable, will be clearly mentioned at checkout.</li>
-            </ul>
-
-            <h3>5. Shipping Policy</h3>
-            <ul>
-                <li>We strive to ship products within 1 working day after order confirmation.</li>
-                <li>Customers will receive tracking information once the order is dispatched.</li>
-            </ul>
-
-            <h3>6. Data Security</h3>
-            <p>We use encryption and other security measures to protect your data. While we strive to protect your information, no method of transmission over the internet is 100% secure.</p>
-
-            <h3>7. Your Rights</h3>
-            <ul>
-                <li>Access, update, or delete your personal information by contacting us at support@puritytechsolutions.in.</li>
-                <li>Opt-out of promotional communications through the provided links or by contacting us.</li>
-            </ul>
-
-            <h3>8. Third-Party Links</h3>
-            <p>Our apps may contain links to third-party websites or services. We are not responsible for their privacy practices.</p>
-
-            <h3>9. Children’s Privacy</h3>
-            <p>Our apps are not intended for users under the age of 13. We do not knowingly collect information from children.</p>
-
-            <h3>10. Contact Us</h3>
-            <ul>
-                <li>Email: <a href="mailto:support@puritytechsolutions.in">support@puritytechsolutions.in</a></li>
-                <li>Phone: +91-8149772397</li>
-                <li>Address: SUCO, 103 Guruvarya Chikane Guruji Residency, Kshetrapal Nagar, Shivtar Road, Khed, Ratnagiri-415709, Maharashtra</li>
-            </ul>
-
-            <h3>11. Products and Services</h3>
-            <p>We offer food delivery services designed to provide fresh and reliable food delivery to your doorstep. These services are governed by the terms and policies outlined here.</p>
-
-            <h3>12. Changes to This Policy</h3>
-            <p>We may update this policy periodically. Significant changes will be communicated to users. By using our platform, you agree to the terms and policies outlined in this document.</p>
-        </section>
+    <!-- Header -->
+    <div class="page-header">
+        <h1>SUCO Customer App</h1>
+        <p>Legal policies for customers using the SUCO food delivery platform</p>
+        <p class="date">Last Updated: March, 2026</p>
     </div>
+
+    <!-- Tab Bar -->
+    <div class="tab-bar">
+        <div class="tab-bar-inner">
+            <button class="tab-btn active" onclick="switchTab('privacy', this)">Privacy Policy</button>
+            <button class="tab-btn" onclick="switchTab('terms', this)">Terms of Service</button>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content-wrap">
+
+        <!-- ── PRIVACY POLICY ── -->
+        <div id="tab-privacy" class="tab-panel active">
+
+            <div class="policy-section">
+                <h2 class="section-title">1. Introduction</h2>
+                <div class="section-body">
+                    <p>Purity Technology Solution ("SUCO", "we", "us", "our") respects your privacy. This Privacy Policy explains how we collect, use, share, and protect your personal information when you use the SUCO customer app.</p>
+                    <p>This policy complies with the Digital Personal Data Protection Act 2023 (DPDP Act), IT Act 2000, and all applicable Indian laws. By downloading, registering, or using the SUCO app, you consent to this Privacy Policy.</p>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">2. Data Controller Details</h2>
+                <div class="section-body">
+                    <div class="info-grid">
+                        <div class="info-row"><span class="info-label">Data Fiduciary</span><span class="info-value">Purity Technology Solution</span></div>
+                        <div class="info-row"><span class="info-label">Registered Office</span><span class="info-value">Kshetrapal Nagar, Khed, Ratnagiri. Shivtar Road, Khed, Ratnagiri-415709, Maharashtra</span></div>
+                        <div class="info-row"><span class="info-label">Grievance Officer</span><span class="info-value">info@puritytechsolutions.in | +91 81497 72397</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">3. Information We Collect</h2>
+                <div class="section-body">
+                    <div class="subsection">
+                        <p class="subsection-title">A. Personal Information You Provide</p>
+                        <ul class="policy-list">
+                            <li><span class="dash">—</span><span>Full name (as registered)</span></li>
+                            <li><span class="dash">—</span><span>Mobile number (mandatory for OTP verification)</span></li>
+                            <li><span class="dash">—</span><span>Email address (optional)</span></li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <p class="subsection-title">B. Order & Delivery Information</p>
+                        <ul class="policy-list">
+                            <li><span class="dash">—</span><span>Complete delivery address (house number, street, landmark, pincode)</span></li>
+                            <li><span class="dash">—</span><span>Billing address (if different)</span></li>
+                            <li><span class="dash">—</span><span>Order details (restaurant name, food items, quantity, special instructions)</span></li>
+                            <li><span class="dash">—</span><span>Delivery instructions (e.g., "leave at gate", "call before arrival")</span></li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <p class="subsection-title">C. Payment Information</p>
+                        <ul class="policy-list">
+                            <li><span class="dash">—</span><span>Payment method (UPI ID, card number last 4 digits, wallet)</span></li>
+                            <li><span class="dash">—</span><span>Transaction IDs (Razorpay reference numbers)</span></li>
+                            <li><span class="dash">—</span><span>Order value, taxes, delivery charges, discounts applied</span></li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <p class="subsection-title">D. Sensitive Personal Data</p>
+                        <ul class="policy-list">
+                            <li><span class="dash">—</span><span>Real-time GPS location (only during active delivery window, 30 minutes max)</span></li>
+                            <li><span class="dash">—</span><span>Dietary preferences (vegetarian, vegan, allergies — if mentioned in order notes)</span></li>
+                            <li><span class="dash">—</span><span>Health conditions (if voluntarily shared for special preparation)</span></li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <p class="subsection-title">E. Technical & Device Information</p>
+                        <ul class="policy-list">
+                            <li><span class="dash">—</span><span>Device ID, Android/iOS version, app version</span></li>
+                            <li><span class="dash">—</span><span>IP address, internet service provider</span></li>
+                            <li><span class="dash">—</span><span>Cookies, crash reports, usage analytics</span></li>
+                            <li><span class="dash">—</span><span>Camera (only if you upload a profile photo)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">4. How We Collect Your Information</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span><strong>Directly from you:</strong> Registration form, order placement, reviews, support tickets</span></li>
+                        <li><span class="dash">—</span><span><strong>Automatically:</strong> GPS during delivery, cookies, device sensors, app analytics</span></li>
+                        <li><span class="dash">—</span><span><strong>From third parties:</strong> Razorpay (payment confirmation), restaurants (order status)</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">5. How We Use Your Information</h2>
+                <div class="section-body">
+                    <table class="policy-table">
+                        <thead>
+                            <tr><th>Purpose</th><th>Legal Basis (DPDP Act)</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Process your food orders</td><td>Contract performance</td></tr>
+                            <tr><td>Track delivery in real-time</td><td>Legitimate interest</td></tr>
+                            <tr><td>Send SMS/WhatsApp notifications</td><td>Consent</td></tr>
+                            <tr><td>Calculate accurate delivery charges</td><td>Contract performance</td></tr>
+                            <tr><td>Personalize restaurant recommendations</td><td>Legitimate interest</td></tr>
+                            <tr><td>Prevent fraud/abuse</td><td>Legal obligation</td></tr>
+                            <tr><td>Send promotional offers</td><td>Explicit consent</td></tr>
+                            <tr><td>Improve app performance</td><td>Legitimate interest</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">6. Data Sharing</h2>
+                <div class="section-body">
+                    <p style="margin-bottom:10px;">We share your data with:</p>
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>FSSAI licensed restaurants — your name, phone, and order details</span></li>
+                        <li><span class="dash">—</span><span>Active SUCO delivery partners — your name, phone, exact address, and order contents</span></li>
+                        <li><span class="dash">—</span><span>Razorpay Payment Gateway — payment details for processing</span></li>
+                        <li><span class="dash">—</span><span>AWS India servers — encrypted storage, Mumbai region only</span></li>
+                        <li><span class="dash">—</span><span>Government authorities — only for legal orders or court warrants</span></li>
+                    </ul>
+                    <div class="note-box">We never sell your personal data, share it with marketing companies without consent, or transfer it outside India.</div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">7. Data Retention Periods</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Order history — 7 years (Income Tax compliance)</span></li>
+                        <li><span class="dash">—</span><span>Delivery addresses — 5 years</span></li>
+                        <li><span class="dash">—</span><span>GPS location data — 90 days maximum</span></li>
+                        <li><span class="dash">—</span><span>Payment data — 7 years (masked format)</span></li>
+                        <li><span class="dash">—</span><span>Inactive accounts — deleted after 24 months of no orders</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">8. Your Legal Rights (DPDP Act Sections 11–13)</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span><strong>Right to Access</strong> — Download all your data anytime from Profile &gt; My Data</span></li>
+                        <li><span class="dash">—</span><span><strong>Right to Correction</strong> — Update name/address from Profile settings</span></li>
+                        <li><span class="dash">—</span><span><strong>Right to Erasure</strong> — Delete account and all data permanently</span></li>
+                        <li><span class="dash">—</span><span><strong>Right to Nomination</strong> — Appoint a family member for data access</span></li>
+                        <li><span class="dash">—</span><span><strong>Withdraw Consent</strong> — Opt out of marketing at any time</span></li>
+                    </ul>
+                    <div class="note-box">To exercise your rights, email <a href="mailto:info@puritytechsolutions.in">info@puritytechsolutions.in</a> or use the in-app Data Rights form.</div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">9. Data Security Measures</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>End-to-end 256-bit SSL/TLS encryption for all data transmission</span></li>
+                        <li><span class="dash">—</span><span>PCI-DSS Level 1 compliant payment processing via Razorpay</span></li>
+                        <li><span class="dash">—</span><span>ISO 27001 certified AWS Mumbai data centers</span></li>
+                        <li><span class="dash">—</span><span>Data breach notification to you within 72 hours + CERT-In within 6 hours</span></li>
+                        <li><span class="dash">—</span><span>Annual penetration testing by a certified security firm</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">10. Children's Privacy</h2>
+                <div class="section-body">
+                    <p>SUCO does not knowingly collect data from children under 18 years. Parents or guardians can contact us to delete any child's data immediately.</p>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">11. Third-Party Links</h2>
+                <div class="section-body">
+                    <p>The SUCO app may contain links to restaurant websites or payment gateways. We are not responsible for their privacy practices.</p>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">12. FSSAI Food Safety Compliance</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>All partner restaurants display a valid FSSAI license in the app</span></li>
+                        <li><span class="dash">—</span><span>Mandatory allergen information for 14 major allergens</span></li>
+                        <li><span class="dash">—</span><span>Food quality complaints escalated to the FSSAI portal within 24 hours</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">13. Changes to This Policy</h2>
+                <div class="section-body">
+                    <p>We may update this policy from time to time. Material changes will be notified via push notification in the app, email to your registered address, and a prominent notice on the home screen. Continued use after changes means acceptance.</p>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">14. Contact Information</h2>
+                <div class="section-body">
+                    <div class="info-grid">
+                        <div class="info-row"><span class="info-label">Customer Support</span><span class="info-value"><a href="mailto:info@puritytechsolutions.in">info@puritytechsolutions.in</a> | +91 81497 72397</span></div>
+                        <div class="info-row"><span class="info-label">Grievance Officer</span><span class="info-value"><a href="mailto:info@puritytechsolutions.in">info@puritytechsolutions.in</a> | +91 81497 72397</span></div>
+                        <div class="info-row"><span class="info-label">Registered Office</span><span class="info-value">Purity Technology Solution, Kshetrapal Nagar, Khed, Ratnagiri. Shivtar Road, Khed, Ratnagiri-415709, Maharashtra</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- end privacy -->
+
+        <!-- ── TERMS OF SERVICE ── -->
+        <div id="tab-terms" class="tab-panel">
+
+            <div class="policy-section">
+                <h2 class="section-title">1. Acceptance of Terms</h2>
+                <div class="section-body">
+                    <p>By completing any of the following actions, you accept these Terms:</p>
+                    <ul class="policy-list" style="margin-top:10px;">
+                        <li><span class="dash">—</span><span>Downloading the SUCO app from Play Store or App Store</span></li>
+                        <li><span class="dash">—</span><span>Registering with your mobile number</span></li>
+                        <li><span class="dash">—</span><span>Placing your first order</span></li>
+                        <li><span class="dash">—</span><span>Clicking "I Accept" during onboarding</span></li>
+                    </ul>
+                    <div class="note-box">You must be 18+ years and an Indian resident to use SUCO.</div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">2. Our Services</h2>
+                <div class="section-body">
+                    <p style="margin-bottom:10px;">SUCO provides:</p>
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Food discovery from FSSAI licensed restaurants</span></li>
+                        <li><span class="dash">—</span><span>Online ordering and payment processing</span></li>
+                        <li><span class="dash">—</span><span>Real-time delivery status tracking</span></li>
+                        <li><span class="dash">—</span><span>Order history</span></li>
+                        <li><span class="dash">—</span><span>Customer support services</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">3. Your SUCO Account</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Register with a valid Indian mobile number (+91)</span></li>
+                        <li><span class="dash">—</span><span>Keep your login OTP/password confidential</span></li>
+                        <li><span class="dash">—</span><span>You are responsible for all activity on your account</span></li>
+                        <li><span class="dash">—</span><span>Notify us immediately of any unauthorized access</span></li>
+                        <li><span class="dash">—</span><span>We may suspend accounts for violations without prior notice</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">4. Orders & Payments</h2>
+                <div class="section-body">
+                    <div class="subsection">
+                        <p class="subsection-title">Order Process</p>
+                        <ol class="policy-ol">
+                            <li>Browse restaurants and add items to cart</li>
+                            <li>Apply promo codes and review your order</li>
+                            <li>Confirm delivery address and pay securely</li>
+                            <li>Track order status in real-time</li>
+                        </ol>
+                    </div>
+                    <div class="subsection">
+                        <p class="subsection-title">Payment Terms</p>
+                        <ul class="policy-list">
+                            <li><span class="dash">—</span><span>All payments via RBI-approved Razorpay gateway</span></li>
+                            <li><span class="dash">—</span><span>UPI, credit/debit cards, and net banking accepted</span></li>
+                            <li><span class="dash">—</span><span>Prices displayed include GST unless specified</span></li>
+                            <li><span class="dash">—</span><span>Delivery charges calculated by distance</span></li>
+                            <li><span class="dash">—</span><span>No refunds after the restaurant accepts your order</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">5. Delivery Terms</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Delivery times shown are estimates only (typically 30–45 minutes)</span></li>
+                        <li><span class="dash">—</span><span>Non-delivery: 100% refund within 2–3 working days</span></li>
+                        <li><span class="dash">—</span><span>Contact delivery partner directly for doorstep issues</span></li>
+                        <li><span class="dash">—</span><span>Report delivery problems via in-app support</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">6. Customer Responsibilities</h2>
+                <div class="section-body">
+                    <p style="margin-bottom:10px;">You agree not to:</p>
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Place fake orders or cancel repeatedly</span></li>
+                        <li><span class="dash">—</span><span>Abuse delivery partners or restaurant staff</span></li>
+                        <li><span class="dash">—</span><span>Use automated tools for bulk orders or reviews</span></li>
+                        <li><span class="dash">—</span><span>Share your OTP or password with others</span></li>
+                        <li><span class="dash">—</span><span>Use the app for commercial resale</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">7. Ratings & Reviews</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Reviews must be genuine and based on actual experience</span></li>
+                        <li><span class="dash">—</span><span>No profanity, personal attacks, or competitor promotion</span></li>
+                        <li><span class="dash">—</span><span>SUCO may delete inappropriate reviews without notice</span></li>
+                        <li><span class="dash">—</span><span>Fake reviews result in permanent account suspension</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">8. Payment Disputes</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>All payment disputes handled by Razorpay</span></li>
+                        <li><span class="dash">—</span><span>Refunds processed within T+3 days</span></li>
+                        <li><span class="dash">—</span><span>Chargeback abuse results in account blacklisting</span></li>
+                        <li><span class="dash">—</span><span>GST invoices available for all orders</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">9. Disclaimers & Liability Limits</h2>
+                <div class="section-body">
+                    <p style="margin-bottom:10px;">Service is provided "AS IS":</p>
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>No guarantee of restaurant availability</span></li>
+                        <li><span class="dash">—</span><span>Food quality is the restaurant's responsibility</span></li>
+                        <li><span class="dash">—</span><span>Delivery times depend on traffic and partner availability</span></li>
+                        <li><span class="dash">—</span><span>Liability capped at order value or ₹1,000, whichever is lower</span></li>
+                        <li><span class="dash">—</span><span>No liability for food poisoning, allergies, or delays beyond our control</span></li>
+                    </ul>
+                    <div class="note-box">Force Majeure: No liability for natural disasters, strikes, curfews, restaurant closures, or delivery partner unavailability.</div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">10. Consumer Rights</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span>Product liability protection for food safety issues (Consumer Protection Act 2019)</span></li>
+                        <li><span class="dash">—</span><span>Right to fair trade practices</span></li>
+                        <li><span class="dash">—</span><span>Access to National Consumer Helpline</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">11. Termination</h2>
+                <div class="section-body">
+                    <ul class="policy-list">
+                        <li><span class="dash">—</span><span><strong>You can:</strong> Delete your account anytime from Profile settings</span></li>
+                        <li><span class="dash">—</span><span><strong>We can:</strong> Suspend or terminate your account for violations without notice</span></li>
+                        <li><span class="dash">—</span><span><strong>Post-termination:</strong> Order history retained for 7 years for tax purposes</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">12. Governing Law</h2>
+                <div class="section-body">
+                    <p>Indian laws apply. Exclusive jurisdiction: Courts of Mumbai, Maharashtra.</p>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title">13. Contact Directory</h2>
+                <div class="section-body">
+                    <div class="info-grid">
+                        <div class="info-row"><span class="info-label">Customer Care</span><span class="info-value"><a href="mailto:info@puritytechsolutions.in">info@puritytechsolutions.in</a> | +91 81497 72397</span></div>
+                        <div class="info-row"><span class="info-label">Address</span><span class="info-value">Purity Technology Solution, Kshetrapal Nagar, Khed, Ratnagiri. Shivtar Road, Khed, Ratnagiri-415709, Maharashtra</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- end terms -->
+
+    </div><!-- end content-wrap -->
+
+    <!-- Footer -->
+    <div class="page-footer">
+        © 2026 SUCO. All rights reserved. A product of Purity Technology Solutions.
+    </div>
+
+    <script>
+        function switchTab(tab, btn) {
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('tab-' + tab).classList.add('active');
+            btn.classList.add('active');
+        }
+    </script>
+
 </body>
 </html>
